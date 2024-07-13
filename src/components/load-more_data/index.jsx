@@ -46,7 +46,7 @@ export default function LoadMoreData() {
     }, [count]);
 
     if (loading) {
-        return <div className="container-l"><div className="loading-message">Loading data please wait</div></div>;
+        return <div className="container-l"><div className="loading-message">Loading data please wait...</div></div>;
     }
 
     return (
